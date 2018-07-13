@@ -1,0 +1,254 @@
+* {
+    padding: 0!important;
+}
+
+html, body {
+    font-family: 'Circular Std Black';
+}
+
+.background-kaio {
+    background: url("images/background1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.texto-principal {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #ffffff;
+}
+
+
+.texto-principal h1 {
+    width: 100%;
+    font-family: 'Circular Std Black';
+}
+
+.bio {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.bio p {
+    font-family: 'Circular Std Book';
+    font-size: 14px;
+    max-width: 500px;
+}
+
+.icons {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+}
+
+.social-icon {
+    margin-left: 20px;
+}
+
+.social-icon:first-child {
+    margin-left: 0px;
+}
+
+.trabalhos-atuais {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    float: left;
+}
+
+.job-atual h2{
+    font-family: 'Circular Std Medium';
+    font-size: 16px;
+}
+
+.job-atual p{
+    font-family: 'Circular Std Black';
+    font-size: 18px;
+}
+
+.job-atual p:after{
+    content: '';
+    width: inherit;
+    height: 10px;
+    background: #FF2762;
+    display: flex;
+    margin-top: -13px;
+}
+
+.job-freelancer {
+    margin-left: 80px;
+}
+
+.job-freelancer h2{
+    font-family: 'Circular Std Medium';
+    font-size: 16px;
+}
+
+.job-freelancer p{
+    font-family: 'Circular Std Black';
+    font-size: 18px;
+}
+
+.job-freelancer p:after{
+    content: '';
+    width: inherit;
+    height: 10px;
+    background: #FF2762;
+    display: flex;
+    margin-top: -13px;
+}
+
+
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: ;}
+
+.nome-portfolio h1 {
+    font-family: 'Circular Std Black';
+    color: #FF2762;
+    letter-spacing: -2px;
+}
+
+.sobre-portfolio {
+    font-size: 14px;
+    width: 300px;
+    font-family: 'Circular Std Medium';
+}
+
+.responsabilidades-portfolio {
+    margin-top: 50px;
+}
+
+.responsabilidades {
+    font-family: 'Circular Std Black';
+    font-size: 16px;
+}
+
+.responsabilidade {
+    font-family: 'Circular Std Medium';
+}
+
+.rosa {
+    color: #FF2762;
+    font-family: 'Circular Std Black';
+}
+
+.botao-portfolio {
+    width: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.botao-portfolio p{
+    font-family: 'Circular Std Black';
+    font-size: 20px;
+}
+
+.botao-portfolio p:after {
+    content: '';
+    width: inherit;
+    height: 8px;
+    background: #FF2762;
+    display: flex;
+    margin-top: -12px;
+}
+
+.ver {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.19), 0 3px 3px rgba(0,0,0,0.23);
+    background: #fff;
+    border: none;
+    width: 150px;
+    padding: 20px!important;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px!important;
+    font-family: 'Circular Std Black'!important;
+    font-size: 14px!important;
+    cursor: pointer;
+    outline: none!important;
+}
+
+.ver:hover {
+    transition: ease-in-out .2s!important;
+    background: #FF2762;
+    color: #fff;
+    margin-top: -10px;
+    -moz-animation-fill-mode: ;
+}
+
+.tes {
+    background: url("images/rosativa.jpg") no-repeat;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+.teste {
+    background: url("images/lingeriebr.jpg") no-repeat;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+.dlkmodas {
+    background: url("images/dlk.jpg") no-repeat;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+.dodger {
+    background: url("images/dodger.jpg") no-repeat;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+
+
+@media (max-width: 576px) {
+
+    .nome-portfolio {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .sobre-portfolio {
+        text-align: center;
+        width: 100%!important;
+    }
+
+    .responsabilidades-portfolio {
+        text-align: center;
+    }
+
+    .botao-portfolio {
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        margin-bottom: 30px;
+    }
+
+    .dodger {
+        order: 4;
+    }
+}
+
